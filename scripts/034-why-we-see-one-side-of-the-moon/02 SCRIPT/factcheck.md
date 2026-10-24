@@ -1,0 +1,11 @@
+# Fact-check: why we always see the same side of the Moon (both scripts)
+
+| # | Claim | Source 1 | Source 2 | Status |
+| --- | --- | --- | --- | --- |
+| c1 | The Moon always keeps the same side (face) turned toward Earth. | [OpenStax, Astronomy 2e, §4.5 Phases and Motions of the Moon (Rice University)](https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59788/index.cnxml): "As a consequence, the Moon always keeps the same face turned toward Earth" | [OpenStax, University Physics Volume 1, §11.4 Precession of a Gyroscope (problems) (Rice University)](https://github.com/openstax/osbooks-university-physics-bundle/blob/main/modules/m58338/index.cnxml): "Remember that the Moon keeps one side toward Earth at all times." | OK |
+| c2 | This is because the Moon spins on its axis in exactly the same time it takes to orbit Earth, about 27.3 days. | [OpenStax, Astronomy 2e, §4.5 Phases and Motions of the Moon (Rice University)](https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59788/index.cnxml): "The Moon rotates on its axis in exactly the same time that it takes to revolve about Earth." | [OpenStax, University Physics Volume 1, §11.4 Precession of a Gyroscope (problems) (Rice University)](https://github.com/openstax/osbooks-university-physics-bundle/blob/main/modules/m58338/index.cnxml): "orbital period 27.32d = 2.36×106s" | OK |
+| c3 | A Moon that did not spin at all would show us all of its sides during one orbit (its far side would face us halfway round). | Geometric thought experiment shown on screen: a ball moving around a centre without turning keeps pointing the same direction in space, so after half a lap the side that faced the centre points away and the far side faces the centre. | - | PROOF |
+
+Notes: c2 source 2: University Physics' problem answer uses the Moon's 27.32-day orbital period and then says for its spin 'the orbital period is the same as (a)', i.e. the spin period equals the orbital period. c3 also matches Astronomy 2e §4.5's figure caption: 'If the Moon did not rotate as it orbited Earth, it would present all of its sides to our view' (one source, so the claim is shown as a thought experiment). The 27.3 days is the sidereal month (Astronomy 2e §4.5: 'the sidereal month is 27.3217 days').
+
+Approved by Justin: [ ]

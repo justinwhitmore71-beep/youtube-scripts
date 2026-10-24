@@ -1,0 +1,12 @@
+# Fact-check: why a doubling pond is only half covered the day before (both scripts)
+
+| # | Claim | Source 1 | Source 2 | Status |
+| --- | --- | --- | --- | --- |
+| c1 | Exponential (doubling) growth multiplies by the same factor each step, unlike linear growth, which adds the same amount each step. | [OpenStax, Algebra and Trigonometry 2e, §6.1 Exponential Functions (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m49361/index.cnxml): "The scenario in the India population example is different because we have a percent change per unit time (rather than a constant change) in the number of people." | [OpenStax, Calculus Volume 1, §6.8 Exponential Growth and Decay (Rice University)](https://github.com/openstax/osbooks-calculus-bundle/blob/main/modules/m53651/index.cnxml): "it takes the same amount of time for a population of bacteria to grow from 100 to 200 bacteria as it does to grow from 10,000 to 20,000 bacteria." | OK |
+| c2 | With a fixed doubling time, the quantity doubles every time that period passes, so going back one period halves it. | [OpenStax, Calculus Volume 1, §6.8 Exponential Growth and Decay (Rice University)](https://github.com/openstax/osbooks-calculus-bundle/blob/main/modules/m53651/index.cnxml): "This time is called the doubling time." | [OpenStax, Algebra and Trigonometry 2e, §6.7 Exponential and Logarithmic Models (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m49367/index.cnxml): "We may use the exponential growth function in applications involving doubling time, the time it takes for a quantity to double." | OK |
+| c3 | Invented example: full on day 30 means ½ on day 29, ¼ on day 28, and 1/32 (about 3%) on day 25. | Arithmetic shown on screen: size on day 30 − k = (½)^k of full: k = 1: ½; k = 2: ¼; k = 5: 1/32 = 0.03125 ≈ 3%. | - | PROOF |
+| c4 | Each doubling adds as much as the total that was already there (going from S to 2S adds S). | Arithmetic shown on screen: 2S − S = S; e.g. day 29 to 30 adds ½ pond, equal to all of day 29's patch. | - | PROOF |
+
+Notes: c3 and c4 are arithmetic on an invented example; the playbook reserves PROOF for Simple Proofs, so Justin to confirm. c1 source 2 illustrates the constant-factor idea with its doubling-time example (same time for 100 → 200 as for 10,000 → 20,000). Real ponds stop doubling when they run out of room; the example assumes steady doubling to the end.
+
+Approved by Justin: [ ]

@@ -29,6 +29,7 @@ Running index of Simple Proof Shorts drafts. Each written topic has a folder `sc
 ## Batches
 - Batch 1 (2026-10-24): the 10 requested topics in order (001 to 010); 4 of them skipped for sources and replaced with 011 to 014 so the batch has 10 written scripts. Mix of the 10 written: 3 Simple Proofs, 3 Brain Breakers, 2 One Equation, 2 The Universe, Explained. No Everyday Physics this batch: the one requested (GPS) could not be sourced.
 - Batch 2 (2026-10-24): own topics 015 to 024, using the brief's weekly mix scaled to 10: 3 Simple Proofs (015 to 017), 3 Brain Breakers (018 to 020), 1 One Equation and 2 Everyday Physics (021 to 023), 1 The Universe, Explained (024). All ten fully sourced. Topics considered and dropped for sources: Earth's spin you can't feel, sizes of infinity, lightning-before-thunder, drinking straws, rainbows' 42°.
+- Batch 3 (2026-10-24): own topics 025 to 034: 3 Simple Proofs (025 to 027), 3 Brain Breakers (028 to 030), 1 One Equation and 2 Everyday Physics (031 to 033), 1 The Universe, Explained (034). Dropped for sources: why the Moon and Sun look the same size (the diameters are in one book only), the doubling penny, Earth's spin.
 
 | # | Title | Series | Category | Words (A / B) | Status | Folder / notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -56,3 +57,13 @@ Running index of Simple Proof Shorts drafts. Each written topic has a folder `sc
 | 022 | Why a skater spins faster with arms in | Everyday Physics | physics | 81 / 83 | DRAFT: awaiting fact-check approval | [022-why-a-skater-spins-faster](022-why-a-skater-spins-faster/) |
 | 023 | Why a thrown ball and a dropped ball land together | Everyday Physics | physics | 82 / 81 | DRAFT: awaiting fact-check approval | [023-thrown-and-dropped-land-together](023-thrown-and-dropped-land-together/) |
 | 024 | The Sun you see is 8 minutes old | The Universe, Explained | astronomy | 82 / 76 | DRAFT: awaiting fact-check approval | [024-sunlight-is-eight-minutes-old](024-sunlight-is-eight-minutes-old/) |
+| 025 | Why a polygon's outside angles always add to 360° | Simple Proofs | math | 83 / 84 | DRAFT: awaiting fact-check approval | [025-exterior-angles-always-360](025-exterior-angles-always-360/) |
+| 026 | Why you can't divide by zero | Simple Proofs | math | 80 / 82 | DRAFT: awaiting fact-check approval | [026-why-you-cant-divide-by-zero](026-why-you-cant-divide-by-zero/) |
+| 027 | Down 50%, up 50%, and you're still down 25% | Simple Proofs | math | 85 / 85 | DRAFT: awaiting fact-check approval | [027-down-50-up-50-still-down](027-down-50-up-50-still-down/) |
+| 028 | Why one rich person wrecks the average | Brain Breakers | math | 85 / 84 | DRAFT: awaiting fact-check approval | [028-mean-vs-median](028-mean-vs-median/) c3 is invented arithmetic marked PROOF outside Simple Proofs: Justin to confirm. |
+| 029 | Why moving together doesn't mean causing | Brain Breakers | math | 76 / 79 | DRAFT: awaiting fact-check approval | [029-correlation-is-not-causation](029-correlation-is-not-causation/) c3 is an invented illustration marked PROOF outside Simple Proofs: Justin to confirm. |
+| 030 | Why a doubling pond is half covered the day before | Brain Breakers | math | 84 / 83 | DRAFT: awaiting fact-check approval | [030-half-full-the-day-before](030-half-full-the-day-before/) c3/c4 are arithmetic on an invented example marked PROOF outside Simple Proofs: Justin to confirm. |
+| 031 | Why the Sun gets 4 million tons lighter every second | One Equation | physics | 84 / 85 | DRAFT: awaiting fact-check approval | [031-the-sun-gets-lighter-every-second](031-the-sun-gets-lighter-every-second/) |
+| 032 | Why bridges have gaps in them | Everyday Physics | physics | 84 / 80 | DRAFT: awaiting fact-check approval | [032-why-bridges-have-gaps](032-why-bridges-have-gaps/) |
+| 033 | Why a steel ship floats but a steel bolt sinks | Everyday Physics | physics | 85 / 83 | DRAFT: awaiting fact-check approval | [033-why-steel-ships-float](033-why-steel-ships-float/) |
+| 034 | Why we always see the same side of the Moon | The Universe, Explained | astronomy | 82 / 84 | DRAFT: awaiting fact-check approval | [034-why-we-see-one-side-of-the-moon](034-why-we-see-one-side-of-the-moon/) c3 is a geometric thought experiment marked PROOF outside Simple Proofs: Justin to confirm. |
