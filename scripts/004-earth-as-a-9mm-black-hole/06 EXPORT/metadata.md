@@ -15,7 +15,7 @@ A black hole's size depends only on its mass: R = 2GM/c². The speed of light sq
 
 ## Sources
 - OpenStax, University Physics Volume 1, §13.7 Einstein's Theory of Gravity (Rice University): https://github.com/openstax/osbooks-university-physics-bundle/blob/main/modules/m58352/index.cnxml
-- OpenStax, Astronomy 2e, §24.6 Black Holes (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59943/index.cnxml
+- OpenStax, Astronomy 2e, §24.5 Black Holes (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59943/index.cnxml
 - OpenStax, College Physics 2e, §34.2 General Relativity and Quantum Gravity (Rice University): https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42689/index.cnxml
 
 ## Hashtags
@@ -27,7 +27,7 @@ A black hole's size depends only on its mass: R = 2GM/c². The speed of light sq
 
 Sources:
 - OpenStax, University Physics Volume 1, §13.7 Einstein's Theory of Gravity (Rice University): https://github.com/openstax/osbooks-university-physics-bundle/blob/main/modules/m58352/index.cnxml
-- OpenStax, Astronomy 2e, §24.6 Black Holes (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59943/index.cnxml
+- OpenStax, Astronomy 2e, §24.5 Black Holes (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59943/index.cnxml
 - OpenStax, College Physics 2e, §34.2 General Relativity and Quantum Gravity (Rice University): https://github.com/openstax/osbooks-college-physics-bundle/blob/main/modules/m42689/index.cnxml
 
 #Shorts #astronomy #blackholes #physics #TheUniverseExplained

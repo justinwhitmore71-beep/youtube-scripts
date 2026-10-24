@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>why adding the digits tests for 9</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: one small number fully split on screen; B&#x27;s bigger number is more impressive but busier.<br>Weak spots: Neither shows a number that fails the test.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>Ten is nine plus one</h3>
+<p class='meta'>one number split into nines and ones<br>82 words, about 36 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Add up a number&#x27;s digits, and you instantly know if nine divides it.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Why would digits know that?]</span> Why would the digits know anything about nine?</p>
+<p><span class='n'>3</span><span class='cue'></span> Take seven hundred thirty-eight: seven hundreds, three tens, and eight ones.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: 738 = 7×99 + 3×9 + (7 + 3 + 8)]</span> Every hundred is ninety-nine plus one, and every ten is nine plus one.</p>
+<p><span class='n'>5</span><span class='cue'></span> So it&#x27;s a pile of nines plus seven, plus three, plus eight.</p>
+<p class='sug'><span class='n'>6</span><span class='cue'></span> The pile always splits into nines, so only the digit sum, eighteen, decides.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> Nine works because ten is just one more than nine.</p>
+</section><section><h2>Script B</h2><h3>Not magic, just place value</h3>
+<p class='meta'>the trick looks like magic until you split the place values<br>85 words, about 38 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> You can tell if a huge number divides by nine by adding its digits.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: That sounds like a magic trick.]</span> Is that a trick, or real maths?</p>
+<p><span class='n'>3</span><span class='cue'></span> Ten is nine plus one, and a hundred is ninety-nine plus one.</p>
+<p class='sug'><span class='n'>4</span><span class='cue'></span> So each digit carries a pile of nines, plus itself.</p>
+<p><span class='n'>5</span><span class='cue'>[EQUATION: 4572 = (multiple of 9) + 4 + 5 + 7 + 2]</span> So four thousand five hundred seventy-two is a pile of nines, plus four, five, seven, two.</p>
+<p><span class='n'>6</span><span class='cue'></span> Those make eighteen, a multiple of nine, so the number is too.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> The digit trick isn&#x27;t magic; it&#x27;s ten being one more than nine.</p>
+</section></div></body></html>

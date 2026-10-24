@@ -15,8 +15,8 @@ Wrap a rope around Earth's equator, then add just one meter. Held evenly, it ris
 
 ## Sources
 - OpenStax, Contemporary Mathematics, §10.4 Polygons, Perimeter, and Circumference (Rice University): https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00128/index.cnxml
-- OpenStax, Astronomy 2e, §25.7 The Formation of the Galaxy (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59955/index.cnxml
-- OpenStax, Astronomy 2e, §21.5 Planets beyond the Solar System: Search and Discovery (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59921/index.cnxml
+- OpenStax, Astronomy 2e, §25.6 The Formation of the Galaxy (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59955/index.cnxml
+- OpenStax, Astronomy 2e, §21.4 Planets beyond the Solar System: Search and Discovery (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59921/index.cnxml
 - OpenStax, University Physics Volume 1, §9.6 Center of Mass (Rice University): https://github.com/openstax/osbooks-university-physics-bundle/blob/main/modules/m58323/index.cnxml
 
 ## Hashtags
@@ -28,8 +28,8 @@ Wrap a rope around Earth's equator, then add just one meter. Held evenly, it ris
 
 Sources:
 - OpenStax, Contemporary Mathematics, §10.4 Polygons, Perimeter, and Circumference (Rice University): https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00128/index.cnxml
-- OpenStax, Astronomy 2e, §25.7 The Formation of the Galaxy (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59955/index.cnxml
-- OpenStax, Astronomy 2e, §21.5 Planets beyond the Solar System: Search and Discovery (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59921/index.cnxml
+- OpenStax, Astronomy 2e, §25.6 The Formation of the Galaxy (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59955/index.cnxml
+- OpenStax, Astronomy 2e, §21.4 Planets beyond the Solar System: Search and Discovery (Rice University): https://github.com/openstax/osbooks-astronomy/blob/main/modules/m59921/index.cnxml
 - OpenStax, University Physics Volume 1, §9.6 Center of Mass (Rice University): https://github.com/openstax/osbooks-university-physics-bundle/blob/main/modules/m58323/index.cnxml
 
 #Shorts #math #geometry #puzzle #BrainBreakers

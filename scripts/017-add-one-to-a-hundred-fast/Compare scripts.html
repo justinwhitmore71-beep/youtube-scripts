@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>why 1 + 2 + ... + 100 = 5050</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: the &#x27;each step in adds one and removes one&#x27; line is the clearest why; B is the version that generalises.<br>Weak spots: The &#x27;fifty pairs&#x27; count is shown, not explained, in A.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>Pair the ends</h3>
+<p class='meta'>the pairs never change<br>83 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Add every number from one to a hundred, and the answer takes five seconds.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: That&#x27;s a hundred additions!]</span> Isn&#x27;t that a hundred separate additions?</p>
+<p><span class='n'>3</span><span class='cue'></span> Pair the ends: one plus a hundred makes a hundred and one.</p>
+<p class='sug'><span class='n'>4</span><span class='cue'></span> Two plus ninety-nine: a hundred and one again, and so on.</p>
+<p><span class='n'>5</span><span class='cue'>[EQUATION: 50 × 101 = 5050]</span> Each step in adds one and removes one, so every pair stays a hundred and one.</p>
+<p><span class='n'>6</span><span class='cue'></span> Fifty pairs of a hundred and one is five thousand fifty.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> Pair the opposite ends, and a long sum turns into one multiplication.</p>
+</section><section><h2>Script B</h2><h3>Forward and backward</h3>
+<p class='meta'>write it twice, halve the rectangle<br>83 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> One to a hundred adds to five thousand fifty, and one picture shows why.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Did someone add them all?]</span> Did someone really add them one by one?</p>
+<p class='sug'><span class='n'>3</span><span class='cue'></span> Write the numbers forward, then backward underneath.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: 1 + 2 + ... + n = n(n + 1)/2]</span> Each column, one over a hundred, two over ninety-nine, adds to a hundred and one.</p>
+<p><span class='n'>5</span><span class='cue'></span> A hundred columns of a hundred and one is ten thousand one hundred.</p>
+<p><span class='n'>6</span><span class='cue'></span> That&#x27;s the sum written twice, so halve it: five thousand fifty.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> Any evenly spaced run sums to how many, times first plus last, over two.</p>
+</section></div></body></html>

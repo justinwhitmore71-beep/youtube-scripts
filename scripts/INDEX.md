@@ -28,6 +28,7 @@ Running index of Simple Proof Shorts drafts. Each written topic has a folder `sc
 
 ## Batches
 - Batch 1 (2026-10-24): the 10 requested topics in order (001 to 010); 4 of them skipped for sources and replaced with 011 to 014 so the batch has 10 written scripts. Mix of the 10 written: 3 Simple Proofs, 3 Brain Breakers, 2 One Equation, 2 The Universe, Explained. No Everyday Physics this batch: the one requested (GPS) could not be sourced.
+- Batch 2 (2026-10-24): own topics 015 to 024, using the brief's weekly mix scaled to 10: 3 Simple Proofs (015 to 017), 3 Brain Breakers (018 to 020), 1 One Equation and 2 Everyday Physics (021 to 023), 1 The Universe, Explained (024). All ten fully sourced. Topics considered and dropped for sources: Earth's spin you can't feel, sizes of infinity, lightning-before-thunder, drinking straws, rainbows' 42°.
 
 | # | Title | Series | Category | Words (A / B) | Status | Folder / notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -39,9 +40,19 @@ Running index of Simple Proof Shorts drafts. Each written topic has a folder `sc
 | 006 | Better at both, worse overall: Simpson's paradox | Brain Breakers | math | 83 / 84 | DRAFT: awaiting fact-check approval | [006-simpsons-paradox](006-simpsons-paradox/) c3 is invented arithmetic marked PROOF outside Simple Proofs: Justin to confirm. |
 | 007 | Zeno's paradox: infinite steps, finite trip | Brain Breakers | math | 84 / 83 | NEEDS SOURCES | [007-zenos-paradox](007-zenos-paradox/) c1 (what Zeno argued) has one source (OpenStax Introduction to Philosophy); needs a second. The maths (c2, c3) has two. |
 | 008 | Why moving clocks tick slower | One Equation | physics | 85 / 85 | DRAFT: awaiting fact-check approval | [008-light-clock-time-dilation](008-light-clock-time-dilation/) |
-| 009 | GPS clocks and relativity drift | Everyday Physics | physics | - | SKIPPED: NEEDS SOURCES | The key numbers (about -7 and +45 microseconds/day, net +38) are in one source only: OpenStax Astronomy 2e §24.5. No reachable book gives the gravitational time-dilation formula to derive the 45, and gps.gov / NIST / papers were blocked. |
+| 009 | GPS clocks and relativity drift | Everyday Physics | physics | - | SKIPPED: NEEDS SOURCES | The key numbers (about -7 and +45 microseconds/day, net +38) are in one source only: OpenStax Astronomy 2e §24.4. No reachable book gives the gravitational time-dilation formula to derive the 45, and gps.gov / NIST / papers were blocked. |
 | 010 | The golden angle, 137.5 degrees | Simple Proofs | math | - | SKIPPED: NEEDS SOURCES | 360/φ² ≈ 137.5° can be proven on screen, but no reachable source says plants use the golden angle (phyllotaxis); the only plant claim found (OpenStax Calculus Vol. 2 §5.1, sunflower spirals 'always' Fibonacci) overstates it. Fails the 2-source test for the claim that makes it interesting. |
 | 011 | Why 0! = 1 (not 0) | Simple Proofs | math | 85 / 80 | DRAFT: awaiting fact-check approval | [011-why-zero-factorial-is-one](011-why-zero-factorial-is-one/) |
 | 012 | Add 1 m to a rope around Earth: it lifts 16 cm | Brain Breakers | math | 84 / 85 | DRAFT: awaiting fact-check approval | [012-rope-around-the-earth](012-rope-around-the-earth/) |
 | 013 | Astronauts get 90% gravity. So why do they float? | The Universe, Explained | astronomy | 85 / 85 | DRAFT: awaiting fact-check approval | [013-astronauts-float-in-90-percent-gravity](013-astronauts-float-in-90-percent-gravity/) Check topic_log.csv: may overlap an earlier Newton's-cannon or elevator Short. |
 | 014 | Why anything to the power 0 is 1 | Simple Proofs | math | 83 / 83 | DRAFT: awaiting fact-check approval | [014-why-anything-to-the-zero-is-one](014-why-anything-to-the-zero-is-one/) |
+| 015 | Why the primes never run out | Simple Proofs | math | 84 / 85 | DRAFT: awaiting fact-check approval | [015-primes-never-run-out](015-primes-never-run-out/) |
+| 016 | Why the digit trick for 9 works | Simple Proofs | math | 82 / 85 | DRAFT: awaiting fact-check approval | [016-why-the-nines-digit-trick-works](016-why-the-nines-digit-trick-works/) |
+| 017 | Add 1 to 100 in five seconds | Simple Proofs | math | 83 / 83 | DRAFT: awaiting fact-check approval | [017-add-one-to-a-hundred-fast](017-add-one-to-a-hundred-fast/) |
+| 018 | Why a poll of 1,000 people works for a whole country | Brain Breakers | math | 85 / 85 | DRAFT: awaiting fact-check approval | [018-why-a-poll-of-1000-works](018-why-a-poll-of-1000-works/) |
+| 019 | Why tails is never 'due' | Brain Breakers | math | 85 / 85 | DRAFT: awaiting fact-check approval | [019-gamblers-fallacy](019-gamblers-fallacy/) |
+| 020 | Why the worst scorers improve even if you do nothing | Brain Breakers | math | 83 / 84 | DRAFT: awaiting fact-check approval | [020-regression-to-the-mean](020-regression-to-the-mean/) |
+| 021 | Twice the speed, four times the braking distance | One Equation | physics | 82 / 85 | DRAFT: awaiting fact-check approval | [021-twice-the-speed-four-times-the-braking](021-twice-the-speed-four-times-the-braking/) |
+| 022 | Why a skater spins faster with arms in | Everyday Physics | physics | 81 / 83 | DRAFT: awaiting fact-check approval | [022-why-a-skater-spins-faster](022-why-a-skater-spins-faster/) |
+| 023 | Why a thrown ball and a dropped ball land together | Everyday Physics | physics | 82 / 81 | DRAFT: awaiting fact-check approval | [023-thrown-and-dropped-land-together](023-thrown-and-dropped-land-together/) |
+| 024 | The Sun you see is 8 minutes old | The Universe, Explained | astronomy | 82 / 76 | DRAFT: awaiting fact-check approval | [024-sunlight-is-eight-minutes-old](024-sunlight-is-eight-minutes-old/) |
