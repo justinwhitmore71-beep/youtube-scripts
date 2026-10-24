@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>Zeno&#x27;s paradox: infinitely many steps, one finite trip</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: answers the mascot&#x27;s &#x27;forever?&#x27; with the halving times; B is a cleaner sum-first hook.<br>Weak spots: The Zeno attribution (c1) has one source so far.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>Infinite steps, one room</h3>
+<p class='meta'>the wrong guess is &#x27;infinitely many steps take forever&#x27;<br>84 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Crossing a room takes infinitely many steps, and you still arrive.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Infinite steps take forever?]</span> Don&#x27;t infinitely many steps take forever?</p>
+<p><span class='n'>3</span><span class='cue'></span> Zeno said: go halfway, then half the rest, forever.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: 1/2 + 1/4 + 1/8 + ... = 1]</span> Add the pieces: a half, plus a quarter, plus an eighth, and so on.</p>
+<p><span class='n'>5</span><span class='cue'></span> The gap left always equals the last piece, and it halves toward zero, so the sum is exactly one.</p>
+<p class='sug'><span class='n'>6</span><span class='cue'></span> At steady speed each piece takes half the time, so the times add up too.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> Infinitely many pieces can make something finite, so you arrive.</p>
+</section><section><h2>Script B</h2><h3>Adding forever, getting one</h3>
+<p class='meta'>start from the sum, then reveal it is Zeno<br>83 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Add a half, a quarter, an eighth, forever, and you get exactly one.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Adding forever stays finite?]</span> How can adding forever not give infinity?</p>
+<p><span class='n'>3</span><span class='cue'></span> Walk to a door: half the way, then half what&#x27;s left, and so on.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: 1/2 + 1/4 + 1/8 + ... = 1]</span> Each step halves the gap: a half left, a quarter, an eighth.</p>
+<p class='sug'><span class='n'>5</span><span class='cue'></span> The gap shrinks toward zero, so the total of the steps closes in on exactly one.</p>
+<p><span class='n'>6</span><span class='cue'></span> That&#x27;s Zeno&#x27;s ancient puzzle, and why you really reach the door.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> Infinitely many pieces can still add up to something finite.</p>
+</section></div></body></html>

@@ -1,0 +1,12 @@
+# Fact-check: why any number to the power zero is 1 (both scripts)
+
+| # | Claim | Source 1 | Source 2 | Status |
+| --- | --- | --- | --- | --- |
+| c1 | A whole-number power means repeated multiplication: 5³ = 5 × 5 × 5, 2³ = 2 × 2 × 2 = 8. | [OpenStax, Calculus Volume 1, §1.5 Exponential and Logarithmic Functions (Rice University)](https://github.com/openstax/osbooks-calculus-bundle/blob/main/modules/m53481/index.cnxml): "If x is a positive integer, then we define bx = b · b ⋯ b (with x factors of b) ." | [OpenStax, Algebra and Trigonometry 2e, §1.2 Exponents and Scientific Notation (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51241/index.cnxml): "x3 ⋅ x4 = x ⋅ x ⋅ x3factors ⋅ x ⋅ x ⋅ x ⋅ x 4factors" | OK |
+| c2 | Any nonzero number to the power zero equals 1 (0^0 is the exception). | [OpenStax, Algebra and Trigonometry 2e, §1.2 Exponents and Scientific Notation (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51241/index.cnxml): "For any nonzero real number a , the zero exponent rule of exponents states that a 0 = 1" | [OpenStax, Calculus Volume 1, §1.5 Exponential and Logarithmic Functions (Rice University)](https://github.com/openstax/osbooks-calculus-bundle/blob/main/modules/m53481/index.cnxml): "Also, b0 is defined to be 1 ." | OK |
+| c3 | Dividing a power by itself gives 1, and the quotient rule (subtract the exponents) gives exponent 0, so a^0 = 1. | Proven on screen: 5³/5³ = (5·5·5)/(5·5·5) = 1, every factor cancels; and a^m/a^n = a^(m−n) because n of the m factors cancel, so 5³/5³ = 5^(3−3) = 5^0. Both equal the same division, so 5^0 = 1. | - | PROOF |
+| c4 | Stepping down the powers of 2 divides by 2 each time: 8, 4, 2, so 2^0 = 2/2 = 1. | Proven on screen: 2^(n−1) = 2^n / 2 (one fewer factor of 2). 2³ = 8, 2² = 8/2 = 4, 2¹ = 4/2 = 2, 2⁰ = 2/2 = 1. | - | PROOF |
+
+Notes: c3 is proven on screen; the same argument appears in Algebra and Trigonometry 2e §1.2: 'If we were to simplify the original expression using the quotient rule, we would have t 8 t 8 = t 8 - 8 = t 0 If we equate the two answers, the result is t 0 = 1.' The rule itself (c2) has two sources. 0^0: Algebra and Trigonometry 2e §1.2 says 'The sole exception is the expression 0 0 ... for now, we will consider the value to be undefined.' (one source; the script only says 'any number except zero'). Quotes from the OpenStax source files on GitHub; exponents appear as plain text there (x3 = x³, a 0 = a⁰).
+
+Approved by Justin: [ ]
