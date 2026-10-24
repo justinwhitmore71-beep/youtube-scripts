@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>why the primes never run out</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: names the wrong guess and lands the contradiction in one line; B is friendlier with real numbers.<br>Weak spots: The remainder-1 step needs a clear animation in both.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>Hand me your complete list</h3>
+<p class='meta'>the wrong guess is &#x27;primes run out&#x27;<br>84 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Primes never run out, and the proof fits in one multiplication.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Don&#x27;t they run out eventually?]</span> Surely big numbers stop being prime eventually?</p>
+<p><span class='n'>3</span><span class='cue'></span> A prime divides only by one and itself: two, three, five, seven.</p>
+<p class='sug'><span class='n'>4</span><span class='cue'></span> Suppose you had the complete list of primes.</p>
+<p><span class='n'>5</span><span class='cue'>[EQUATION: N = 2 × 3 × 5 × ... × p + 1]</span> Multiply them all together and add one.</p>
+<p><span class='n'>6</span><span class='cue'></span> Divide it by any prime on the list, and one is always left over.</p>
+<p><span class='n'>7</span><span class='cue'></span> But every number above one has a prime factor, so some prime is missing.</p>
+<p><span class='n'>8</span><span class='cue'>[TAKEAWAY]</span> Every list of primes misses one, so they never run out.</p>
+</section><section><h2>Script B</h2><h3>Find the prime you missed</h3>
+<p class='meta'>run the proof on a real list<br>85 words, about 38 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Give me any list of primes, and I can always find one you missed.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Even a huge list?]</span> Even if the list is enormous?</p>
+<p><span class='n'>3</span><span class='cue'>[EQUATION: 2 × 3 × 5 × 7 + 1 = 211]</span> Take two, three, five and seven: multiply and add one to get two hundred eleven.</p>
+<p><span class='n'>4</span><span class='cue'></span> Two hundred eleven leaves remainder one when divided by any of them.</p>
+<p><span class='n'>5</span><span class='cue'></span> So its prime factors, and it must have some, are all new.</p>
+<p class='sug'><span class='n'>6</span><span class='cue'></span> Here it&#x27;s a new prime itself; other times it splits into new primes.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> However long your list, a prime hides beyond it, so primes never end.</p>
+</section></div></body></html>

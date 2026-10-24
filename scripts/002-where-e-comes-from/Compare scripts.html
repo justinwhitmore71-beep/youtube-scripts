@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>where the number e comes from</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: names the wrong guess (endless money) and lands the why in one line; B builds the formula more slowly.<br>Weak spots: Both show the levelling-off with a table rather than proving it.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>The interest ceiling</h3>
+<p class='meta'>more compounding, but it levels off<br>84 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> A dollar at one hundred percent interest, compounded every second, ends the year under two seventy-two.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Infinite compounding, infinite money?]</span> Doesn&#x27;t more compounding mean endless money?</p>
+<p><span class='n'>3</span><span class='cue'></span> Once a year, the dollar simply doubles to two dollars.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: (1 + 1/n)ⁿ]</span> Split the year into n slices, each adding one over n of the total.</p>
+<p class='sug'><span class='n'>5</span><span class='cue'></span> Monthly gives two sixty-one; daily, two seventy-one.</p>
+<p><span class='n'>6</span><span class='cue'></span> Interest on interest grows, but every slice gets thinner, so the total levels off.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> That ceiling is e, about two point seven two, the number behind nonstop growth.</p>
+</section><section><h2>Script B</h2><h3>Race the compounding</h3>
+<p class='meta'>the frequencies race and stall at e<br>85 words, about 38 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Compound interest hides a number: two point seven one eight.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Where does that come from?]</span> Where does that come from?</p>
+<p class='sug'><span class='n'>3</span><span class='cue'></span> Take a dollar at one hundred percent interest for a year.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: (1 + 1/n)ⁿ]</span> Add it in n slices of one over n, and you get one plus one over n, to the n.</p>
+<p><span class='n'>5</span><span class='cue'></span> Yearly gives two dollars, monthly two sixty-one, every second just under two seventy-two.</p>
+<p><span class='n'>6</span><span class='cue'></span> Thinner slices earn interest sooner, but each one is smaller, so the growth stalls.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> That stalling point is e, the number behind nonstop growth.</p>
+</section></div></body></html>
