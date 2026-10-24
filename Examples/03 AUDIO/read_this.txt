@@ -1,0 +1,13 @@
+Put coins around a coin of the same size, and exactly six fit, with no gaps and no wiggle room.
+
+Why exactly six and not seven?
+
+Join the centers of the middle coin and two neighbors.
+
+Each side is two radii long, so the triangle has three equal sides.
+
+Equal sides mean equal corners: sixty degrees each.
+
+Six of those sixty-degree slices make a full circle around the middle.
+
+Six coins, because six times sixty is three sixty.
