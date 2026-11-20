@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>why no fraction equals the square root of 2</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: the classic proof, step by step; B is the fresher route if the channel has covered A-style proofs before.<br>Weak spots: Fast pace: the proof needs every step on screen.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>Both even: contradiction</h3>
+<p class='meta'>the classic proof in four moves<br>83 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> No fraction, however huge its numbers, equals the square root of two.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Big enough numbers must work!]</span> Surely some giant fraction works?</p>
+<p><span class='n'>3</span><span class='cue'></span> Suppose a over b works, in lowest terms.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: a² = 2b²]</span> Then a squared equals two b squared, so a squared is even.</p>
+<p class='sug'><span class='n'>5</span><span class='cue'></span> Odd numbers have odd squares, so a must be even: two k.</p>
+<p><span class='n'>6</span><span class='cue'></span> Then b squared is two k squared, so b is even too.</p>
+<p><span class='n'>7</span><span class='cue'></span> Both even means it wasn&#x27;t in lowest terms, so no fraction works.</p>
+<p><span class='n'>8</span><span class='cue'>[TAKEAWAY]</span> Root two is irrational: its decimal never ends or repeats.</p>
+</section><section><h2>Script B</h2><h3>The twos never balance</h3>
+<p class='meta'>count the factors of 2 in a square<br>85 words, about 38 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> You&#x27;ll never find a whole-number square that&#x27;s exactly twice another one.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Never? There are infinitely many!]</span> Not even among infinitely many squares?</p>
+<p><span class='n'>3</span><span class='cue'></span> Break any number into prime factors, and squaring doubles every count.</p>
+<p class='sug'><span class='n'>4</span><span class='cue'></span> So a perfect square always has an even number of twos inside it.</p>
+<p><span class='n'>5</span><span class='cue'>[EQUATION: a² = 2b²]</span> But two times a square has an odd number of twos, so a squared can&#x27;t equal two b squared.</p>
+<p><span class='n'>6</span><span class='cue'></span> That&#x27;s exactly why no fraction a over b squares to two.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> The square root of two is irrational, because the twos can never balance.</p>
+</section></div></body></html>

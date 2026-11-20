@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Compare scripts</title><style>
+body{background:#16161A;color:#F2F2F0;font:17px/1.55 "Segoe UI",sans-serif;margin:0;padding:24px}
+h1{font-size:24px;margin:0 0 6px} .top{color:#A3A3AD;max-width:1200px;margin-bottom:20px}
+.top b{color:#C6F432} .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{background:#24242B;border-radius:12px;padding:18px 22px} h2{margin:0;color:#C6F432} h3{margin:4px 0 8px;font-size:18px}
+.meta{color:#A3A3AD;font-size:15px} p{margin:6px 0} .n{display:inline-block;width:28px;color:#6b6b75;font-size:13px}
+.cue{color:#FF6B5B;font-size:13px} .sug{outline:1px dashed #C6F432;border-radius:4px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}</style></head><body>
+<h1>why four rolls give only a 52% chance of a six</h1>
+<div class="top">Reading this page doesn't choose anything. Script A is already set up as the one to record; to use B instead, double-click <b>Choose B.bat</b> (and <b>Choose A.bat</b> to switch back).<br>
+My pick: A: names the two-thirds guess and diagnoses it; B&#x27;s one-in-three surprise is a strong alternative hook.<br>Weak spots: Double-counting is stated more than shown.<br>
+The line in a dashed box is the suggested one to rewrite as your [MINE] line.</div>
+<div class="wrap"><section><h2>Script A</h2><h3>Flip the question</h3>
+<p class='meta'>the wrong guess is &#x27;two thirds&#x27;<br>84 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Roll a die four times: the chance of at least one six is only about fifty-two percent.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Four sixths is two thirds!]</span> Isn&#x27;t it four sixths, two thirds?</p>
+<p><span class='n'>3</span><span class='cue'></span> Adding chances counts rolls with two sixes twice, so it overshoots.</p>
+<p class='sug'><span class='n'>4</span><span class='cue'></span> Flip the question: what&#x27;s the chance of no six at all?</p>
+<p><span class='n'>5</span><span class='cue'>[EQUATION: 1 − (5/6)⁴ ≈ 0.518]</span> Each roll misses with five sixths, so four misses is about forty-eight percent.</p>
+<p><span class='n'>6</span><span class='cue'></span> Everything else has at least one six: about fifty-two percent.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> For &#x27;at least one&#x27;, find the chance of none, then subtract from one.</p>
+</section><section><h2>Script B</h2><h3>Six rolls, no six</h3>
+<p class='meta'>six rolls still often miss<br>84 words, about 37 s</p>
+<p><span class='n'>1</span><span class='cue'>[HOOK]</span> Roll a die six times, and there&#x27;s a one-in-three chance of no six.</p>
+<p><span class='n'>2</span><span class='cue'>[MASCOT: Six rolls, six faces!]</span> Six rolls for six faces, surely?</p>
+<p><span class='n'>3</span><span class='cue'></span> Each roll has a five-in-six chance of missing.</p>
+<p><span class='n'>4</span><span class='cue'>[EQUATION: (5/6)⁶ ≈ 0.335]</span> The rolls don&#x27;t affect each other, so the misses multiply: five sixths, six times.</p>
+<p><span class='n'>5</span><span class='cue'></span> That leaves about a thirty-four percent chance of no six at all.</p>
+<p class='sug'><span class='n'>6</span><span class='cue'></span> Adding one sixth six times gives a hundred percent only by counting double sixes twice.</p>
+<p><span class='n'>7</span><span class='cue'>[TAKEAWAY]</span> Overlapping chances don&#x27;t simply add; find the chance of none instead.</p>
+</section></div></body></html>

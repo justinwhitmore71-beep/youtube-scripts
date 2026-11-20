@@ -1,0 +1,11 @@
+# Fact-check: why logarithms turn multiplication into addition (both scripts)
+
+| # | Claim | Source 1 | Source 2 | Status |
+| --- | --- | --- | --- | --- |
+| c1 | A logarithm is an exponent: log₁₀(x) is the power of 10 that gives x (log 100 = 2, log 1000 = 3). | [OpenStax, Intermediate Algebra 2e, §10.4 Use the Properties of Logarithms (Rice University)](https://github.com/openstax/osbooks-prealgebra-bundle/blob/main/modules/m81411/index.cnxml): "Our definition of logarithm shows us that a logarithm is the exponent of the equivalent exponential." | [OpenStax, Algebra and Trigonometry 2e, §6.3 Logarithmic Functions (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m49363/index.cnxml): "If we remember the logarithm is the exponent, it makes the conversion easier." | OK |
+| c2 | The log of a product is the sum of the logs: log(MN) = log M + log N, for positive M and N. | [OpenStax, Algebra and Trigonometry 2e, §6.5 Logarithmic Properties (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m49365/index.cnxml): "The product rule for logarithms can be used to simplify a logarithm of a product by rewriting it as a sum of individual logarithms." | [OpenStax, Intermediate Algebra 2e, §10.4 Use the Properties of Logarithms (Rice University)](https://github.com/openstax/osbooks-prealgebra-bundle/blob/main/modules/m81411/index.cnxml): "tells us to take the log of a product, we add the log of the factors." | OK |
+| c3 | Multiplying powers of the same base adds the exponents: 10² × 10³ = 10⁵ (100 × 1000 = 100,000). | [OpenStax, Algebra and Trigonometry 2e, §1.2 Exponents and Scientific Notation (Rice University)](https://github.com/openstax/osbooks-college-algebra-bundle/blob/main/modules/m51241/index.cnxml): "Notice that the exponent of the product is the sum of the exponents of the terms." | [OpenStax, Intermediate Algebra 2e, §10.4 Use the Properties of Logarithms (Rice University)](https://github.com/openstax/osbooks-prealgebra-bundle/blob/main/modules/m81411/index.cnxml): "In the Product Property of Exponents, am · an = am + n , we see that to multiply the same base, we add the exponents." | OK |
+
+Notes: Worked example on screen: log(100 × 1000) = log(100,000) = 5 = 2 + 3.
+
+Approved by Justin: [ ]

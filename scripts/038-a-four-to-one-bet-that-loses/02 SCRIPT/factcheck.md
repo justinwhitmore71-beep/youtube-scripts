@@ -1,0 +1,12 @@
+# Fact-check: why a bet paying 4 to 1 can still lose you money (both scripts)
+
+| # | Claim | Source 1 | Source 2 | Status |
+| --- | --- | --- | --- | --- |
+| c1 | The expected value of a bet adds each possible result times its probability. | [OpenStax, Contemporary Mathematics, §7.11 Expected Value (Rice University)](https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00097/index.cnxml): "then the expected value of the experiment is: ∑ n(O)×P(O)" | [OpenIntro Statistics (Diez, Çetinkaya-Rundel & Barr), ch. 3 Probability](https://github.com/OpenIntroStat/openintro-statistics/blob/master/ch_probability/TeX/ch_probability.tex): "The expected value of a random variable is computed by adding each outcome weighted by its probability" | OK |
+| c2 | Expected value is the long-run average result per play over many repetitions. | [OpenStax, Introductory Statistics 2e, §4.2 Mean or Expected Value and Standard Deviation (Rice University)](https://github.com/openstax/osbooks-introductory-statistics-bundle/blob/main/modules/m46959/index.cnxml): "The expected value is often referred to as the "long-term" average or mean. This means that over the long term of doing an experiment over and over, you would expect this average." | [OpenStax, Contemporary Mathematics, §7.11 Expected Value (Rice University)](https://github.com/openstax/osbooks-contemporary-mathematics/blob/main/modules/m00097/index.cnxml): "the mean of the values associated with the outcomes that we would observe over a large number of repetitions of the experiment." | OK |
+| c3 | Invented game: win $4 on a six (probability 1/6), lose $1 otherwise (5/6): EV = 4/6 − 5/6 = −1/6 ≈ −$0.17 per roll; over 6 rolls on average one win (+$4) and five losses (−$5), net −$1. | Arithmetic shown on screen: 4 × 1/6 = 4/6; 1 × 5/6 = 5/6; 4/6 − 5/6 = −1/6 ≈ −0.167 dollars. Per six rolls: +4 − 5 = −1. | - | PROOF |
+| c4 | A $5 payout would make the bet exactly fair: 5 × 1/6 − 1 × 5/6 = 0. | Arithmetic shown on screen: 5/6 − 5/6 = 0. | - | PROOF |
+
+Notes: c3 and c4 are arithmetic on an invented game (nothing to source; the playbook reserves PROOF for Simple Proofs, so Justin to confirm). Contemporary Mathematics §7.11 works a near-identical die example with a $3 payout (expected value −$0.33) and adds: 'In general, this is how casinos and lottery corporations make money: Every game has a negative expected value for the player.' (one source, so not used as a script claim).
+
+Approved by Justin: [ ]
